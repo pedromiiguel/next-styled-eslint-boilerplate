@@ -14,7 +14,7 @@ const About = () => {
   const blue = useColorModeValue('blue.700', 'blue.400');
 
   return (
-    <Container width="100%" id="about">
+    <Container width="100%" id="about" mt="40px">
       <Heading size="4xl" as="h1" fontWeight="600">
         <Highlight query="Miguel" styles={{ color: blue }}>
           Pedro Miguel
