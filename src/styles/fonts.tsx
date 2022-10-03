@@ -1,11 +1,7 @@
 import { Global } from '@emotion/react';
 
-
-
 const Fonts = () => (
-
   <Global
-
     styles={`
 
     /* poppins-300 - latin */
@@ -75,12 +71,7 @@ const Fonts = () => (
     }
 
       `}
-
   />
-
 );
 
-
-
 export default Fonts;
-
