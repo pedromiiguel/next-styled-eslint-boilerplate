@@ -1,9 +1,20 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme, theme as base, type ThemeConfig } from '@chakra-ui/react';
 
-const theme = extendTheme({
+const theme: ThemeConfig = extendTheme({
+  initialColorMode: 'light',
+  useSystemColorMode: false,
   fonts: {
-    heading: `'Poppins', sans-serif`,
-    body: `'Poppins', sans-serif`
+    heading: `Poppins ${base.fonts?.heading}, sans-serif`,
+    body: `Poppins ${base.fonts?.body}, sans-serif`
+  },
+
+  styles: {
+    global: {
+      'html, body': {
+        scrollBehavior: 'smooth',
+        boxSizing: 'border-box'
+      }
+    }
   }
 });
 
