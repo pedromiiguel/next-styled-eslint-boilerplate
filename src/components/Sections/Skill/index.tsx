@@ -31,9 +31,10 @@ const Skill = () => {
             Habilidades
           </Heading>
           <Text>
-            Javascript, HTML, CSS, Bootstrap, NodeJs, ReactJs, MongoDB, SQLite,
-            Scrum, SASS, Material UI, Chakra UI, React Native, Git, Typescript,
-            NextJs, Styled Components.
+            Javascript, Typescript, HTML, CSS, Bootstrap, NodeJs, ReactJs,
+            Context API, MongoDB, SQLite, Scrum, Sass, Material UI, Chakra UI,
+            React Native, Expo, Git, NextJs, Styled-Components, Redux, Redux
+            Toolkit, Prisma, Express, Strapi, GraphQL, Express, Mongoose.
           </Text>
           <Flex
             alignItems="center"

@@ -92,5 +92,29 @@ export default [
     ],
     href: 'https://fabbrini-pedromiiguel.vercel.app/',
     github: 'https://github.com/pedromiiguel/Fabbrini'
+  },
+  {
+    title: 'Dashgo',
+    src: '/dashgo.png',
+    description:
+      'O Dashgo é um projeto full-stack, um dashboard para fazer a gestão de usuários e produtps ',
+    techs: [
+      { name: 'Nodejs', color: 'green' },
+      { name: 'ReactJs', color: 'blue' },
+      { name: 'Express', color: 'green' },
+      { name: 'Chakra-ui', color: 'green' },
+      { name: 'Postgres', color: 'blue' },
+      { name: 'React Hook Form', color: 'blue' },
+      { name: 'Next', color: 'gray' },
+      { name: 'React Query', color: 'blue' },
+      { name: 'Redux', color: 'purple' },
+      { name: 'handlebars', color: 'gray' },
+      { name: 'jsonwebtoken', color: 'purple' },
+      { name: 'prisma', color: 'green' },
+      { name: 'sendgrid', color: 'blue' },
+      { name: 'bcryptjs', color: 'gray' }
+    ],
+    href: 'https://web-dashgo.vercel.app/sign-in',
+    github: 'https://github.com/pedromiiguel/web-dashgo'
   }
 ];
