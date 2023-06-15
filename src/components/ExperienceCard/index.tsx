@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Box,
   Grid,
   GridItem,
   Heading,
@@ -22,6 +23,16 @@ export const ExperienceCard = ({
 }: ExperienceCardProps) => {
   const color = useColorModeValue('gray.900', 'white');
   const blue = useColorModeValue('blue.700', 'blue.400');
+
+  function verifyTagsHTML(string): boolean {
+    const regex = /<[a-z][\s\S]*>/i;
+
+    return regex.test(string);
+  }
+
+  const hasTags = verifyTagsHTML(description);
+
+  const padding = hasTags ? 4 : 0;
 
   return (
     <Grid
@@ -61,9 +72,12 @@ export const ExperienceCard = ({
         </Heading>
       </GridItem>
       <GridItem area={'description'}>
-        <Text fontSize="lg" maxWidth="1200px">
-          {description}
-        </Text>
+        <Box
+          p={padding}
+          fontSize="lg"
+          maxWidth="1200px"
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
       </GridItem>
     </Grid>
   );
