@@ -13,10 +13,15 @@ import Aside from 'components/Aside';
 import Menu from 'components/Menu';
 
 export default function Home() {
-  const isMobile = useBreakpointValue({
-    base: true,
-    md: false
-  });
+  const isMobile = useBreakpointValue(
+    {
+      base: true,
+      md: false
+    },
+    {
+      fallback: 'md'
+    }
+  );
 
   return (
     <>
@@ -30,6 +35,10 @@ export default function Home() {
       </Head>
 
       <Flex
+        marginLeft={{
+          base: 0,
+          md: 350
+        }}
         flexDirection={{
           base: 'column',
           md: 'row'
