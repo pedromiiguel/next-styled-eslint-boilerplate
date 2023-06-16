@@ -8,7 +8,7 @@ const Aside = () => {
   const bg = useColorModeValue('blue.700', 'blue.900');
 
   return (
-    <Slide direction="left" in={true} style={{ zIndex: 10 }}>
+    <Slide direction="left" in={true}>
       <Flex
         maxWidth="350px"
         w="100%"

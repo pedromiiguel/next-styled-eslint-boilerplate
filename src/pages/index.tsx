@@ -43,9 +43,10 @@ export default function Home() {
           base: 'column',
           md: 'row'
         }}
+        position="relative"
       >
         {isMobile ? <Menu /> : <Aside />}
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" zIndex={10}>
           <About />
           <Experience />
           <Education />

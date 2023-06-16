@@ -97,7 +97,7 @@ export default [
     title: 'Dashgo',
     src: '/dashgo.png',
     description:
-      'O Dashgo é um projeto full-stack, um dashboard para fazer a gestão de usuários e produtps ',
+      'O Dashgo é um projeto full-stack, um dashboard para fazer a gestão de usuários e produtos ',
     techs: [
       { name: 'Nodejs', color: 'green' },
       { name: 'ReactJs', color: 'blue' },
