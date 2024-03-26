@@ -53,13 +53,5 @@ export const experiences: Experience[] = [
     <li>Tecnologias utilizadas: ReactJs, React Native, Expo, NextJs, ChakraUi, TypeScript, Git, Sass, Storybook, Styled-
     Components, HTML, CSS, Reactstrap, Material-UI, Git Flow, React Hook Form, React Query, Figma e Adobe XD;</li>
     </ul>`
-  },
-  {
-    title: 'Estagiário de TI',
-    subtitle: 'Defensoria Pública da União',
-    date: 'Janeiro 2021 - Julho 2021',
-    description: `<ul>
-    <li>Estagiário na área de desenvolvimento, atuei na manutenção do site da DPU com o CMS Joomla , manutenção em um sistema de cursos utilizando o Moodle e também com o Open Journal Systems(OJS).</li>
-    </ul>`
   }
 ];

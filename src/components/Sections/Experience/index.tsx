@@ -27,7 +27,7 @@ const Experience = () => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
+      // viewport={{ once: true, amount: 0.8 }}
     >
       <motion.div variants={cardVariants}>
         <MotionContainer gap={10} id="experience">
