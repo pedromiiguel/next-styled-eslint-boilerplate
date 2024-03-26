@@ -34,7 +34,7 @@ const Education = () => {
           <ExperienceCard
             title="Instituto Federal de Brasília"
             subtitle="Tecnólogo em Sistemas para Internet"
-            date="Dezembro 2019 - Novembro 2021"
+            date="Janeiro 2019 - Setembro 2021"
             description="Status: Concluído"
           />
         </Container>

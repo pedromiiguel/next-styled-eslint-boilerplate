@@ -1,82 +1,91 @@
 export default [
   {
-    title: 'Won Games',
-    src: '/won_games.png',
-    description: 'Won games é uma plataforma para compra de jogos eletrônicos.',
+    title: 'Carro por Assinatura - Porto Seguro',
+    src: '/carroporassinaturaporto.png',
+    description:
+      'Participei ativamente do projeto de Carro por Assinatura da Porto Seguro, desempenhando funções que incluíram manutenção, desenvolvimento de novas funcionalidades e refatoração dos sistemas web associados. Minha contribuição foi fundamental para a evolução contínua e aprimoramento desses sistemas, garantindo a entrega de uma experiência excepcional aos usuários.',
     techs: [
-      { name: 'Typescript', color: 'blue' },
+      { name: 'React Js', color: 'blue' },
+      { name: 'Javscript', color: 'yellow' },
       { name: 'NextJs', color: 'gray' },
       { name: 'Styled Components', color: 'pink' },
-      { name: 'Storybook', color: 'pink' },
-      { name: 'Cypress', color: 'green' },
-      { name: 'Apollo Client', color: 'purple' },
-      { name: 'Graphql', color: 'pink' },
-      { name: 'Next-Auth', color: 'gray' }
+      { name: 'React Hook Form', color: 'gray' },
+      { name: 'Firebase', color: 'yellow' },
+      { name: 'Git Flow', color: 'gray' },
+      { name: 'Redux', color: 'purple' }
     ],
-    href: 'https://won-games-pedro-miiguel.vercel.app/',
+    href: 'https://carroporassinaturaporto.com.br/',
     github: 'https://github.com/pedromiiguel/won-games-client'
   },
   {
-    title: 'Art Gallery Website',
-    src: '/art-gallery-website.png',
-    description: 'Art Gallery é uma landing page de uma Galeria de arte.',
+    title: 'Escola Prime',
+    src: '/escolaprimepe.png',
+    description:
+      'Durante esse projeto freelance, desenvolvi um sistema para escolas, enfrentando o desafio de utilizar o Next.js, normalmente utilizado como framework front-end, como nosso back-end. Implementei funcionalidades essenciais, incluindo sistema de autenticação com JWT, gestão de cargos e envio de emails.',
     techs: [
-      { name: 'leaflet', color: 'gray' },
+      { name: 'Tailwind CSS', color: 'blue' },
       { name: 'NextJs', color: 'gray' },
-      { name: 'Styled Components', color: 'pink' },
-      { name: 'styled-media-query', color: 'pink' }
+      { name: 'React Query', color: 'blue' },
+      { name: 'Prisma ORM', color: 'gray' },
+      { name: 'Zod', color: 'blue' },
+      { name: 'Resend', color: 'gray' },
+      { name: 'TypeScript', color: 'blue' }
     ],
-    href: 'https://art-gallery-website-one.vercel.app/',
+    href: 'https://www.escolaprimepe.com.br/',
     github: 'https://github.com/pedromiiguel/art-gallery-website'
   },
   {
-    title: 'Dev Finder',
-    src: '/dev-finder.png',
+    title: 'Labi Exames',
+    src: '/labiexames.png',
     description:
-      'Dev finder é uma aplicação, onde o usuário pode realizar a pesquisa de usuários do github e obter alguns detalhes sobre a conta.',
+      'Minhas responsabilidades incluem a manutenção, correção de bugs, refatoração e implementação de novas funcionalidades em ambiente de produção. Trabalho em estreita colaboração com uma equipe, contribuindo para a segurança da aplicação ao desenvolver e implementar testes unitários utilizando ferramentas como Jest e React Testing Library.',
     techs: [
       { name: 'Typescript', color: 'blue' },
       { name: 'NextJs', color: 'gray' },
       { name: 'Styled Components', color: 'pink' },
-      { name: 'Eslint', color: 'blue' },
-      { name: 'Prettier', color: 'blue' }
+      { name: 'React Js', color: 'blue' },
+      { name: 'Formik', color: 'blue' },
+      { name: 'Jest', color: 'yellow' },
+      { name: 'React Testing Library', color: 'gray' },
+      { name: 'Redux', color: 'purple' },
+      { name: 'Git Flow', color: 'gray' }
     ],
-    href: 'https://dev-finder-fqp993ptz-pedromiiguel.vercel.app/',
+    href: 'https://labiexames.com.br/',
     github: 'https://github.com/pedromiiguel/devFinder'
   },
-  {
-    title: 'Ignews',
-    src: '/ignews.png',
-    description:
-      'O ignews é um blog de notícias sobre React, exclusivo para assinantes.',
-    techs: [
-      { name: 'Typescript', color: 'blue' },
-      { name: 'NextJs', color: 'gray' },
-      { name: 'SASS', color: 'pink' },
-      { name: 'FaunaDB', color: 'purple' },
-      { name: 'Prismic', color: 'purple' },
-      { name: 'Stripe', color: 'blue' },
-      { name: 'Eslint', color: 'blue' },
-      { name: 'Prettier', color: 'blue' }
-    ],
-    href: 'https://ignews-iz6ndh6y4-pedromiiguel.vercel.app/',
-    github: 'https://github.com/pedromiiguel/Ignews'
-  },
-  {
-    title: 'Letmeask',
-    src: '/letmeask.png',
-    description:
-      'Desenvolvido durante a Next Level Week Together da Rocketseat, o Letmeask é uma aplicação para criação de salas, onde o criador pode interir com seu público, respondendo suas dúvidas e destacando dúvidas mais relevantes.',
-    techs: [
-      { name: 'ReactJs', color: 'blue' },
-      { name: 'Firebase', color: 'yellow' },
-      { name: 'Typescript', color: 'blue' },
-      { name: 'SASS', color: 'pink' },
-      { name: 'HTML', color: 'red' }
-    ],
-    href: 'https://letmeask-76dda.web.app/',
-    github: 'https://github.com/pedromiiguel/Letmeask'
-  },
+  // {
+  //   title: 'Ignews',
+  //   src: '/ignews.png',
+  //   description:
+  //     'O ignews é um blog de notícias sobre React, exclusivo para assinantes.',
+  //   techs: [
+  //     { name: 'Typescript', color: 'blue' },
+  //     { name: 'NextJs', color: 'gray' },
+  //     { name: 'SASS', color: 'pink' },
+  //     { name: 'FaunaDB', color: 'purple' },
+  //     { name: 'Prismic', color: 'purple' },
+  //     { name: 'Stripe', color: 'blue' },
+  //     { name: 'Eslint', color: 'blue' },
+  //     { name: 'Prettier', color: 'blue' }
+  //   ],
+  //   href: 'https://ignews-iz6ndh6y4-pedromiiguel.vercel.app/',
+  //   github: 'https://github.com/pedromiiguel/Ignews'
+  // },
+  // {
+  //   title: 'Letmeask',
+  //   src: '/letmeask.png',
+  //   description:
+  //     'Desenvolvido durante a Next Level Week Together da Rocketseat, o Letmeask é uma aplicação para criação de salas, onde o criador pode interir com seu público, respondendo suas dúvidas e destacando dúvidas mais relevantes.',
+  //   techs: [
+  //     { name: 'ReactJs', color: 'blue' },
+  //     { name: 'Firebase', color: 'yellow' },
+  //     { name: 'Typescript', color: 'blue' },
+  //     { name: 'SASS', color: 'pink' },
+  //     { name: 'HTML', color: 'red' }
+  //   ],
+  //   href: 'https://letmeask-76dda.web.app/',
+  //   github: 'https://github.com/pedromiiguel/Letmeask'
+  // },
   {
     title: 'Fabbrini',
     src: '/fabbrini.png',
@@ -92,29 +101,29 @@ export default [
     ],
     href: 'https://fabbrini-pedromiiguel.vercel.app/',
     github: 'https://github.com/pedromiiguel/Fabbrini'
-  },
-  {
-    title: 'Dashgo',
-    src: '/dashgo.png',
-    description:
-      'O Dashgo é um projeto full-stack, um dashboard para fazer a gestão de usuários e produtos ',
-    techs: [
-      { name: 'Nodejs', color: 'green' },
-      { name: 'ReactJs', color: 'blue' },
-      { name: 'Express', color: 'green' },
-      { name: 'Chakra-ui', color: 'green' },
-      { name: 'Postgres', color: 'blue' },
-      { name: 'React Hook Form', color: 'blue' },
-      { name: 'Next', color: 'gray' },
-      { name: 'React Query', color: 'blue' },
-      { name: 'Redux', color: 'purple' },
-      { name: 'handlebars', color: 'gray' },
-      { name: 'jsonwebtoken', color: 'purple' },
-      { name: 'prisma', color: 'green' },
-      { name: 'sendgrid', color: 'blue' },
-      { name: 'bcryptjs', color: 'gray' }
-    ],
-    href: 'https://web-dashgo.vercel.app/sign-in',
-    github: 'https://github.com/pedromiiguel/web-dashgo'
   }
+  // {
+  //   title: 'Dashgo',
+  //   src: '/dashgo.png',
+  //   description:
+  //     'O Dashgo é um projeto full-stack, um dashboard para fazer a gestão de usuários e produtos ',
+  //   techs: [
+  //     { name: 'Nodejs', color: 'green' },
+  //     { name: 'ReactJs', color: 'blue' },
+  //     { name: 'Express', color: 'green' },
+  //     { name: 'Chakra-ui', color: 'green' },
+  //     { name: 'Postgres', color: 'blue' },
+  //     { name: 'React Hook Form', color: 'blue' },
+  //     { name: 'Next', color: 'gray' },
+  //     { name: 'React Query', color: 'blue' },
+  //     { name: 'Redux', color: 'purple' },
+  //     { name: 'handlebars', color: 'gray' },
+  //     { name: 'jsonwebtoken', color: 'purple' },
+  //     { name: 'prisma', color: 'green' },
+  //     { name: 'sendgrid', color: 'blue' },
+  //     { name: 'bcryptjs', color: 'gray' }
+  //   ],
+  //   href: 'https://web-dashgo.vercel.app/sign-in',
+  //   github: 'https://github.com/pedromiiguel/web-dashgo'
+  // }
 ];

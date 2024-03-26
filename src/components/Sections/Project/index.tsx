@@ -122,14 +122,14 @@ const Project = () => {
                           <FaExternalLinkAlt size={16} />
                         </Link>
 
-                        <Link
+                        {/* <Link
                           href={github}
                           target="_blank"
                           rel="noopener"
                           cursor="pointer"
                         >
                           <FaGithub size={16} />
-                        </Link>
+                        </Link> */}
                       </Flex>
                     </Flex>
 

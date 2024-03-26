@@ -32,17 +32,17 @@ const About = () => {
       </Text>
 
       <Text mt={6} fontSize="lg" maxWidth="1200px" width="100%">
-        Desenvolvedor front-end com experiência nas principais tecnologias do
-        mercado, incluindo React Hooks, API Rest, Typescript, Git Flow, Sass e
-        Styled components. Sou um entusiasta na área de desenvolvimento web
-        mobile, estou sempre em busca de novas experiências. Possuo facilidade
-        em aprender novas tecnologias e acredito que a atualização constante é
-        fundamental para o desenvolvimento de soluções web inovadoras e de alta
-        qualidade. Estou comprometido em criar interfaces de usuário incríveis e
+        Desenvolvedor com experiência nas principais tecnologias do mercado,
+        incluindo React Hooks, Context API, TDD, comunicação com APIs,
+        TypeScript, Git Flow, Sass e Styled Components. Participei de projetos
+        com milhares de acessos diários e também conduzi aplicações desde sua
+        concepção até a publicação final. Possuo facilidade em aprender novas
+        tecnologias e acredito que a atualização constante é fundamental para o
+        desenvolvimento de soluções web e mobile inovadoras e de alta qualidade.
+        Estou comprometido em criar interfaces de usuário incríveis e
         otimizadas, trabalhando em equipe para atender às necessidades do
         projeto. Busco novas oportunidades que me permitam aplicar minhas
-        habilidades e continuar aprendendo e evoluindo como desenvolvedor
-        front-end.
+        habilidades e continuar aprendendo e evoluindo como desenvolvedor.
       </Text>
 
       <Flex alignItems="center" gap={6} mt={6}>
