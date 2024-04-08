@@ -36,8 +36,8 @@ const Project = () => {
   return (
     <Container gap={10} id="project" overflow="hidden">
       <motion.div
-        initial="offscreen"
-        whileInView="onscreen"
+        // initial="offscreen"
+        // whileInView="onscreen"
         variants={containerVariant}
       >
         <Heading size="xl" as="h2">
@@ -54,7 +54,7 @@ const Project = () => {
               <motion.div
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true, amount: 0.8 }}
+                // viewport={{ once: true, amount: 0.8 }}
                 key={title}
               >
                 <MotionFlex
@@ -93,9 +93,10 @@ const Project = () => {
                       transition="transform 0.2s ease-in-out"
                       _hover={{ transform: 'scale(1.02)' }}
                       src={src}
-                      objectFit="contain"
+                      objectFit="cover"
                       width="100%"
                       rounded="md"
+                      maxHeight={400}
                     />
                   </Box>
                   <VStack

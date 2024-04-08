@@ -1,5 +1,20 @@
 export default [
   {
+    title: 'Tem mais descontos',
+    src: '/tem-mais-descontos.jpg',
+    description:
+      'O projeto "Tem Mais Desconto" é um aplicativo móvel de assinatura exclusivo para clientes Claro, que oferece acesso a descontos de até 60% em mais de 300 marcas participantes. Os descontos abrangem uma ampla gama de categorias, incluindo restaurantes, cinemas, farmácias, eletrônicos, moda e muito mais. Além dos descontos, o app oferece premiações exclusivas do clube para os assinantes. Com uma interface intuitiva e fácil de usar, os usuários podem economizar em suas compras com apenas alguns toques no smartphone, evitando assim o pagamento do preço total. O desenvolvimento do aplicativo foi realizado utilizando as tecnologias Expo, React Native, Zustand e Gluestack.',
+    techs: [
+      { name: 'React Native', color: 'blue' },
+      { name: 'Expo', color: 'yellow' },
+      { name: 'Zustand', color: 'gray' },
+      { name: 'Gluestack', color: 'pink' },
+      { name: 'React Hook Form', color: 'gray' }
+    ],
+    href: 'https://play.google.com/store/apps/details?id=br.com.redeparcerias.temmaisdescontos&pcampaignid=web_share&pli=1',
+    github: 'https://github.com/pedromiiguel/won-games-client'
+  },
+  {
     title: 'Carro por Assinatura - Porto Seguro',
     src: '/carroporassinaturaporto.png',
     description:
@@ -53,39 +68,6 @@ export default [
     href: 'https://labiexames.com.br/',
     github: 'https://github.com/pedromiiguel/devFinder'
   },
-  // {
-  //   title: 'Ignews',
-  //   src: '/ignews.png',
-  //   description:
-  //     'O ignews é um blog de notícias sobre React, exclusivo para assinantes.',
-  //   techs: [
-  //     { name: 'Typescript', color: 'blue' },
-  //     { name: 'NextJs', color: 'gray' },
-  //     { name: 'SASS', color: 'pink' },
-  //     { name: 'FaunaDB', color: 'purple' },
-  //     { name: 'Prismic', color: 'purple' },
-  //     { name: 'Stripe', color: 'blue' },
-  //     { name: 'Eslint', color: 'blue' },
-  //     { name: 'Prettier', color: 'blue' }
-  //   ],
-  //   href: 'https://ignews-iz6ndh6y4-pedromiiguel.vercel.app/',
-  //   github: 'https://github.com/pedromiiguel/Ignews'
-  // },
-  // {
-  //   title: 'Letmeask',
-  //   src: '/letmeask.png',
-  //   description:
-  //     'Desenvolvido durante a Next Level Week Together da Rocketseat, o Letmeask é uma aplicação para criação de salas, onde o criador pode interir com seu público, respondendo suas dúvidas e destacando dúvidas mais relevantes.',
-  //   techs: [
-  //     { name: 'ReactJs', color: 'blue' },
-  //     { name: 'Firebase', color: 'yellow' },
-  //     { name: 'Typescript', color: 'blue' },
-  //     { name: 'SASS', color: 'pink' },
-  //     { name: 'HTML', color: 'red' }
-  //   ],
-  //   href: 'https://letmeask-76dda.web.app/',
-  //   github: 'https://github.com/pedromiiguel/Letmeask'
-  // },
   {
     title: 'Fabbrini',
     src: '/fabbrini.png',
